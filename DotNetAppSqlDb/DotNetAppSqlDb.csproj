@@ -198,13 +198,41 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ApplicationControllers\ComplaintController.cs" />
+    <Compile Include="Controllers\ApplicationControllers\MeetingsController.cs" />
+    <Compile Include="Controllers\ApplicationControllers\ReportController.cs" />
+    <Compile Include="Controllers\ApplicationControllers\RoomController.cs" />
+    <Compile Include="Controllers\ApplicationControllers\UserController.cs" />
+    <Compile Include="Controllers\ApplicationControllers\UserCreationController.cs" />
+    <Compile Include="Controllers\Controllers.cs" />
+    <Compile Include="Controllers\ControllerAbs.cs" />
     <Compile Include="Controllers\TodosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ApplicationModels\Complaint.cs" />
+    <Compile Include="Models\ApplicationModels\Meeting.cs" />
+    <Compile Include="Models\ApplicationModels\Room.cs" />
+    <Compile Include="Models\ApplicationModels\Schedule.cs" />
+    <Compile Include="Models\ApplicationModels\User.cs" />
+    <Compile Include="Models\Model.cs" />
+    <Compile Include="Models\ModelAbs.cs" />
     <Compile Include="Models\MyDatabaseContext.cs" />
     <Compile Include="Models\Todo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\Application Views\AccountDetail\AccountDetail.cs" />
+    <Compile Include="Views\Application Views\AdminCreation\AdminCreation.cs" />
+    <Compile Include="Views\Application Views\ComplaintFiling\ComplaintFiling.cs" />
+    <Compile Include="Views\Application Views\CreatedMeetings\CreatedMeetings.cs" />
+    <Compile Include="Views\Application Views\GenerateReport\GenerateReport.cs" />
+    <Compile Include="Views\Application Views\LandingPage\LandingPage.cs" />
+    <Compile Include="Views\Application Views\Login\Login.cs" />
+    <Compile Include="Views\Application Views\MeetingCreation\MeetingCreation.cs" />
+    <Compile Include="Views\Application Views\ResolveComplaints\ResolveComplaints.cs" />
+    <Compile Include="Views\Application Views\RoomAvailability\RoomAvailability.cs" />
+    <Compile Include="Views\Application Views\UserCreation\UserCreation.cs" />
+    <Compile Include="Views\Views.cs" />
+    <Compile Include="Views\ViewAbs.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -270,6 +298,17 @@
     <Content Include="Views\TodosDone\Details.cshtml" />
     <Content Include="Views\TodosDone\Edit.cshtml" />
     <Content Include="Views\TodosDone\Index.cshtml" />
+    <Content Include="Views\Application Views\AccountDetail\AccountDetailForm.cshtml" />
+    <Content Include="Views\Application Views\AdminCreation\AdminCreationForm.cshtml" />
+    <Content Include="Views\Application Views\ComplaintFiling\ComplaintFilingForm.cshtml" />
+    <Content Include="Views\Application Views\CreatedMeetings\CreatedMeetingsForm.cshtml" />
+    <Content Include="Views\Application Views\GenerateReport\GenerateReportForm.cshtml" />
+    <Content Include="Views\Application Views\LandingPage\LandingPageForm.cshtml" />
+    <Content Include="Views\Application Views\Login\LoginForm.cshtml" />
+    <Content Include="Views\Application Views\MeetingCreation\MeetingCreationForm.cshtml" />
+    <Content Include="Views\Application Views\ResolveComplaints\ResolveComplaintsForm.cshtml" />
+    <Content Include="Views\Application Views\RoomAvailability\RoomAvailabilityForm.cshtml" />
+    <Content Include="Views\Application Views\UserCreation\UserCreationForm.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
